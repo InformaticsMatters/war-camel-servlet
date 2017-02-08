@@ -1,0 +1,13 @@
+---
+buildName: "war-camel-servlet"
+links:
+  Git: "https://github.com/InformaticsMatters/war-camel-servlet"
+  Job: "http://192.168.64.8:31473/job/war-camel-servlet"
+  Production: "http://10.0.0.90:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://10.0.0.90:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://10.0.0.90:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-production"
+useLocalFlow: true
